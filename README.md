@@ -64,11 +64,11 @@ ecommerce/
 │ │ ├── ProductSkeleton.jsx
 │ │ └── ui/
 │ │ └── skeleton.jsx
-│ │
+│
 │ ├── hooks/
 │ │ ├── useCart.js
 │ │ └── useProducts.js
-│ │
+│
 │ ├── pages/
 │ │ ├── Home.jsx
 │ │ ├── ProductDetail.jsx
@@ -76,15 +76,15 @@ ecommerce/
 │ │ ├── Checkout.jsx
 │ │ ├── Confirmation.jsx
 │ │ └── NotFound.jsx
-│ │
+│
 │ ├── redux/
 │ │ ├── cartSlice.js
 │ │ ├── productsSlice.js
 │ │ └── store.js
-│ │
+│
 │ ├── utils/
 │ │ └── formatCurrency.js
-│ │
+│
 │ ├── App.jsx
 │ ├── index.css
 │ └── main.jsx
