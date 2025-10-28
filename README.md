@@ -1,13 +1,12 @@
 # E-Commerce Web Application
 
-A modern and responsive e-commerce web application built with **React**, **Vite**, **Redux Toolkit**, **Tailwind CSS**, and **shadcn/ui** — featuring product browsing, cart management, checkout flow, and confirmation screens with smooth UX and error handling.
+A modern and responsive e-commerce web application built with **React**, **Vite**, **Redux Toolkit**, **Tailwind CSS**, and **shadcn/ui** — featuring product browsing, cart management, checkout flow, and confirmation screens with smooth UX and robust error handling.
 
 ---
 
 ## Live Demo
 
-Live URL:  
-_(https://sde-intern-assignment-chi.vercel.app/)_
+🔗 **Live URL:** [sde-intern-assignment-fkx7.vercel.app](sde-intern-assignment-fkx7.vercel.app)
 
 ---
 
@@ -28,7 +27,7 @@ The project follows clean component structure, optimized state management, and p
 ## Features
 
 - **Product Listing** with search & category filters
-- **Product Details** page with dynamic route `/product/:id`
+- **Product Details** page (`/product/:id`)
 - **Shopping Cart** (add, update quantity, remove, clear all)
 - **Checkout Flow** with validation and order confirmation
 - **LocalStorage Caching** for cart and product data
@@ -50,6 +49,7 @@ The project follows clean component structure, optimized state management, and p
 ---
 
 ## Project Structure
+
 ecommerce/
 ├── public/
 ├── src/
@@ -94,7 +94,6 @@ ecommerce/
 ├── vite.config.js
 └── README.md
 
-
 ---
 
 ## Routes
@@ -102,10 +101,10 @@ ecommerce/
 | Path            | Description              |
 | --------------- | ------------------------ |
 | `/`             | Home page (all products) |
-| `/product/:id`  | Product details          |
+| `/product/:id`  | Product details page     |
 | `/cart`         | Shopping cart            |
 | `/checkout`     | Checkout form            |
-| `/confirmation` | Order confirmation       |
+| `/confirmation` | Order confirmation page  |
 | `*`             | 404 Not Found page       |
 
 ---
@@ -122,10 +121,4 @@ npm install
 
 # Start development server
 npm run dev
-
-# Author
-Prakhar Mishra
-GitHub: https://github.com/PrakharMishra639
-LinkedIn: https://www.linkedin.com/in/prakhar-mishra123
-Email: mprakhar713@gmail.com
 ```
