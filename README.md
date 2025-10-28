@@ -50,7 +50,6 @@ The project follows clean component structure, optimized state management, and p
 ---
 
 ## Project Structure
-
 ecommerce/
 ├── public/
 ├── src/
@@ -94,6 +93,7 @@ ecommerce/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
+
 
 ---
 
