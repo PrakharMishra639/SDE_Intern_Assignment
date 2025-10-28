@@ -50,49 +50,51 @@ The project follows clean component structure, optimized state management, and p
 
 ## Project Structure
 
+```bash
 ecommerce/
 ├── public/
 ├── src/
-│ ├── components/
-│ │ ├── CartItem.jsx
-│ │ ├── CategoryDropdown.jsx
-│ │ ├── Footer.jsx
-│ │ ├── Header.jsx
-│ │ ├── Loader.jsx
-│ │ ├── Pagination.jsx
-│ │ ├── ProductCard.jsx
-│ │ ├── ProductSkeleton.jsx
-│ │ └── ui/
-│ │ └── skeleton.jsx
+│   ├── components/
+│   │   ├── CartItem.jsx
+│   │   ├── CategoryDropdown.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── Loader.jsx
+│   │   ├── Pagination.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── ProductSkeleton.jsx
+│   │   └── ui/
+│   │       └── skeleton.jsx
 │
-│ ├── hooks/
-│ │ ├── useCart.js
-│ │ └── useProducts.js
+│   ├── hooks/
+│   │   ├── useCart.js
+│   │   └── useProducts.js
 │
-│ ├── pages/
-│ │ ├── Home.jsx
-│ │ ├── ProductDetail.jsx
-│ │ ├── Cart.jsx
-│ │ ├── Checkout.jsx
-│ │ ├── Confirmation.jsx
-│ │ └── NotFound.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── ProductDetail.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Checkout.jsx
+│   │   ├── Confirmation.jsx
+│   │   └── NotFound.jsx
 │
-│ ├── redux/
-│ │ ├── cartSlice.js
-│ │ ├── productsSlice.js
-│ │ └── store.js
+│   ├── redux/
+│   │   ├── cartSlice.js
+│   │   ├── productsSlice.js
+│   │   └── store.js
 │
-│ ├── utils/
-│ │ └── formatCurrency.js
+│   ├── utils/
+│   │   └── formatCurrency.js
 │
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 │
 ├── package.json
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
+```
 
 ---
 
