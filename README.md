@@ -1,16 +1,131 @@
-# React + Vite
+# E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce web application built with **React**, **Vite**, **Redux Toolkit**, **Tailwind CSS**, and **shadcn/ui** — featuring product browsing, cart management, checkout flow, and confirmation screens with smooth UX and error handling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+Live URL:  
+_(https://sde-intern-assignment-chi.vercel.app/)_
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This single-page application offers a complete shopping experience:
+
+- Browse and search for products
+- Filter items by category
+- Add, update, or remove products in cart
+- Proceed to checkout with form validation
+- View order confirmation with a unique order ID
+
+The project follows clean component structure, optimized state management, and persistent local storage for the cart.
+
+---
+
+## Features
+
+- **Product Listing** with search & category filters
+- **Product Details** page with dynamic route `/product/:id`
+- **Shopping Cart** (add, update quantity, remove, clear all)
+- **Checkout Flow** with validation and order confirmation
+- **LocalStorage Caching** for cart and product data
+- **Redux Toolkit** for global state management
+- **Toast Notifications** via `sonner`
+- **Skeleton & Loader Components** for improved UX
+- **404 Not Found Page** with consistent design
+
+---
+
+## Tech Stack
+
+- **Frontend:** React (Vite) + React Router v7
+- **UI:** Tailwind CSS, shadcn/ui, Lucide Icons
+- **State Management:** Redux Toolkit
+- **Notifications:** Sonner
+- **API:** [FakeStoreAPI](https://fakestoreapi.com) for mock product data
+
+---
+
+## Project Structure
+
+ecommerce/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── CartItem.jsx
+│ │ ├── CategoryDropdown.jsx
+│ │ ├── Footer.jsx
+│ │ ├── Header.jsx
+│ │ ├── Loader.jsx
+│ │ ├── Pagination.jsx
+│ │ ├── ProductCard.jsx
+│ │ ├── ProductSkeleton.jsx
+│ │ └── ui/
+│ │ └── skeleton.jsx
+│ │
+│ ├── hooks/
+│ │ ├── useCart.js
+│ │ └── useProducts.js
+│ │
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── ProductDetail.jsx
+│ │ ├── Cart.jsx
+│ │ ├── Checkout.jsx
+│ │ ├── Confirmation.jsx
+│ │ └── NotFound.jsx
+│ │
+│ ├── redux/
+│ │ ├── cartSlice.js
+│ │ ├── productsSlice.js
+│ │ └── store.js
+│ │
+│ ├── utils/
+│ │ └── formatCurrency.js
+│ │
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+│
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
+---
+
+## Routes
+
+| Path            | Description              |
+| --------------- | ------------------------ |
+| `/`             | Home page (all products) |
+| `/product/:id`  | Product details          |
+| `/cart`         | Shopping cart            |
+| `/checkout`     | Checkout form            |
+| `/confirmation` | Order confirmation       |
+| `*`             | 404 Not Found page       |
+
+---
+
+## Setup & Run Locally
+
+```bash
+# Clone repository
+git clone https://github.com/PrakharMishra639/SDE_Intern_Assignment
+cd ecommerce
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Author
+Prakhar Mishra
+GitHub: https://github.com/PrakharMishra639
+LinkedIn: https://www.linkedin.com/in/prakhar-mishra123
+Email: mprakhar713@gmail.com
+```
